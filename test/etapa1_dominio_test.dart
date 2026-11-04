@@ -5,6 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:recetario_utez/dominio/falla_red.dart';
 import 'package:recetario_utez/dominio/receta.dart';
 
+
 Receta receta({int preparacion = 10, int coccion = 10}) => Receta(
   id: 1,
   nombre: 'Prueba',
